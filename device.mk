@@ -103,15 +103,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml
 
-# Boot Jars
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
-
-# Perf
-PRODUCT_PACKAGES += \
-    libtflite \
-    android.hardware.thermal@2.0
 
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
@@ -389,11 +380,7 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service \
-    android.hardware.power.stats@1.0-service.mock \
-    vendor.qti.hardware.servicetracker@1.2.vendor
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
+    android.hardware.power.stats@1.0-service.mock
 
 # Pixel Exclusive
 PRODUCT_COPY_FILES += \
@@ -410,7 +397,8 @@ include $(LOCAL_PATH)/properties/default.mk
 TARGET_BOARD_PLATFORM := msmnile
 
 TARGET_COMMON_QTI_COMPONENTS := \
-    telephony
+    telephony \
+    perf
 
 # RIL
 PRODUCT_PACKAGES += \
