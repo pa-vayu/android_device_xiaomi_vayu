@@ -270,7 +270,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libavservices_minijail \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor \
     libcodec2_hidl@1.0.vendor \
@@ -350,6 +349,7 @@ include $(LOCAL_PATH)/properties/default.mk
 TARGET_BOARD_PLATFORM := msmnile
 
 TARGET_COMMON_QTI_COMPONENTS := \
+    av \
     audio \
     display \
     telephony \

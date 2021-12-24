@@ -722,9 +722,6 @@ vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
 # Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|144d3730adda990a2fd5e1fdf65726dfe0c1f72c
 vendor/etc/system_properties.xml
