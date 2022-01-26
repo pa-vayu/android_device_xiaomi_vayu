@@ -390,6 +390,10 @@ PRODUCT_PACKAGES += \
    TetheringConfigOverlayVayu \
    WifiOverlayVayu
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service \
