@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef XIAOMI_FINGERPRINT_H
-#define XIAOMI_FINGERPRINT_H
+#pragma once
 
 #include <hardware/hardware.h>
 #include <hardware/fingerprint.h>
@@ -168,5 +167,3 @@ typedef struct xiaomi_fingerprint_device {
      */
     void *reserved[4];  
 } xiaomi_fingerprint_device_t;
-
-#endif  // XIAOMI_FINGERPRINT_H
