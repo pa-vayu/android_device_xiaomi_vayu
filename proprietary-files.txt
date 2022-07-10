@@ -1,4 +1,4 @@
-# All the proprietary files are extracted from miui_VAYUGlobal_V12.5.5.0.RJUMIXM_9217fed24b_11.0.zip, unless pinned.
+# All the proprietary files are extracted from miui_VAYUGlobal_V13.0.4.0.SJUMIXM_f96a3e38af_12.0.zip, unless pinned.
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -63,6 +63,7 @@ vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
+vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio libraries
@@ -138,10 +139,20 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libFaceGrade.so
+vendor/lib64/libHalSuperSensorServer.so
+vendor/lib64/libMegviiFacepp-0.5.2.so|4dce8e04d919df9434d2444c7687328018a6e34f
+vendor/lib64/libSNPE.so
+vendor/lib64/libSuperSensor.so
+vendor/lib64/libSuperSensorCPU.so
+vendor/lib64/libVDClearShot.so
+vendor/lib64/libXMFD_AgeGender.so
+vendor/lib64/lib_denoiser3.so
+vendor/lib64/lib_sr_models.so
 vendor/lib64/libalAILDC.so
-vendor/lib64/libalhLDC.so
-vendor/lib64/libalLDC.so
 vendor/lib64/libalCFR.so
+vendor/lib64/libalLDC.so
+vendor/lib64/libalhLDC.so
 vendor/lib64/libarcdualcamsat.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera_dirty.so
@@ -150,12 +161,14 @@ vendor/lib64/libcamera_scene.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libcvface_api.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libft2vendor.so
-vendor/lib64/libFaceGrade.so
-vendor/lib64/libHalSuperSensorServer.so
-vendor/lib64/libmialgoengine.so
+vendor/lib64/libmegface.so|e32055dc224076c8a7e8486292341c4604a12787
+vendor/lib64/libmi_supernight_raw.so
+vendor/lib64/libmi_supernight_raw_checker.so
+vendor/lib64/libmiai_portraitsupernight.so
 vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_image_colourkeeping.so
@@ -164,27 +177,22 @@ vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmialgo_video_colourkeeping.so
 vendor/lib64/libmialgo_video_seg.so
+vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_712.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
-vendor/lib64/libmi_supernight_raw.so
-vendor/lib64/libmi_supernight_raw_checker.so
 vendor/lib64/libmpbase.so
 vendor/lib64/librawnrv2_shared.so
 vendor/lib64/librelight_only.so
-vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_daemon.so
+vendor/lib64/libremosaiclib.so
 vendor/lib64/libsdk_sr.so
-vendor/lib64/libSNPE.so
 vendor/lib64/libsnpe_dsp_domains_v2.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/lib_sr_models.so
-vendor/lib64/libSuperSensor.so
-vendor/lib64/libSuperSensorCPU.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libswvdec.so
 vendor/lib64/libsymphony-cpu.so
@@ -192,11 +200,9 @@ vendor/lib64/libVDClearShot.so
 vendor/lib64/libvideoBokeh.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
-vendor/lib64/libXMFD_AgeGender.so
-vendor/lib64/lib_denoiser3.so
 
 # Camera - from miui_VAYUGlobal_V12.5.5.0.RJUMIXM_9217fed24b_11.0.zip (patched)
-vendor/lib64/hw/camera.qcom.so|699a08cf19b6fd831245a708a00ebbb36e4f89d3
+vendor/lib64/hw/camera.qcom.so
 vendor/lib64/libshim_megvii.so|586af7a78415d19cdd2d6ba18fc1f4b5ab74b620
 
 # Camera (arcsoft)
@@ -310,7 +316,9 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/LDC_table_src1.dat
-vendor/etc/camera/megviifacepp_0_5_2_model
+vendor/etc/camera/megviifacepp_0_5_2_model|1f0cdc706d3853114ecf7a2c0c7436238fcdf258
+vendor/etc/camera/mibokeh_712_opencl.bin
+vendor/etc/camera/mibokeh_712_parameter.bin
 vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/model_front_mibokeh_video.dlc
@@ -321,11 +329,37 @@ vendor/etc/camera/morpho_lowlight4.0_adrc_high_1.xml
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/sr_params.xml|f83901324b80bc1e1af2751e1bb4d95b01977f6e
+vendor/etc/camera/st_license.lic
 vendor/etc/camera/vidhance_calibration
 vendor/etc/camera/visidon_clearshot_params_algoup.xml
+vendor/etc/screen_light.xml
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
+
+# Camera prebuilt interfaces
+lib64/libcameraservice.so|98774716643a267530014e50a35335b5ce0d4139
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib/vendor.qti.hardware.camera.device@2.0.so
+vendor/lib/vendor.qti.hardware.camera.device@3.5.so
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib64/android.hardware.camera.provider@2.4-external.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib64/vendor.qti.hardware.camera.device@2.0.so
+vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -452,7 +486,6 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM
-system_ext/framework/dpmapi.jar
 system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
@@ -497,7 +530,7 @@ vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # FM
 system_ext/lib/fm_helium.so
@@ -586,7 +619,6 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 # GNSS configs
 vendor/etc/apdr.conf
 vendor/etc/flp.conf
-vendor/etc/gnss_antenna_info.conf
 vendor/etc/gps.conf
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
@@ -1162,14 +1194,8 @@ vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 
 # Wifi Display
-vendor/bin/wfdhdcphalservice
-vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
-vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
-vendor/etc/init/wfdvndservice.rc
-vendor/etc/seccomp_policy/wfdhdcphalservice.policy
-vendor/etc/seccomp_policy/wfdvndservice.policy
 vendor/etc/seccomp_policy/wifidisplayhalservice.policy
 vendor/etc/wfdconfig.xml
 vendor/lib/libFileMux_proprietary.so
