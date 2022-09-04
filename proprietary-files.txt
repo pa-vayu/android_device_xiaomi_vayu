@@ -54,12 +54,16 @@ vendor/firmware/tas256x_reg.bin
 # Audio hardware
 vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudioconfigstore.so
 vendor/lib/vndk/libxlog.so
+vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio libraries
 vendor/lib/libacdb-fts.so
