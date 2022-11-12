@@ -94,9 +94,6 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := vayu_defconfig
   TARGET_KERNEL_SOURCE := kernel/xiaomi/vayu
   TARGET_KERNEL_VERSION := 4.14
-  KERNEL_LLVM_SUPPORT := false
-  KERNEL_GCC_TOOLCHAIN := aarch64-elf
-  KERNEL_GCC_ARM32_TOOLCHAIN := arm-eabi
   TARGET_USES_UNCOMPRESSED_KERNEL := true
 endif
 
@@ -171,9 +168,6 @@ TARGET_USES_MKE2FS := true
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
-
-# Sepolicy
-include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public

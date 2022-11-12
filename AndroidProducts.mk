@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/vayu.mk
+    $(LOCAL_DIR)/aospa_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    vayu-eng \
-    vayu-userdebug \
-    vayu-user
+    aospa_vayu-eng \
+    aospa_vayu-userdebug \
+    aospa_vayu-user
