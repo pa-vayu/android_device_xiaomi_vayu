@@ -446,7 +446,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
-    hardware/nxp
+    hardware/nxp \
+    packages/modules/Bluetooth/android/app
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
