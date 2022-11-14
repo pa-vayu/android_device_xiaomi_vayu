@@ -849,6 +849,9 @@ vendor/lib64/libqti-util.so|894c666ddfbb6485fa9c69cddbf2b11664ea4188
 vendor/lib64/libqti-utils.so|1d68c0f5e6aa993d1ee17a1e085f510a6b2ea5a8
 vendor/lib64/libreffeature.so|0f3cb1381f12a9cd938ceb7c00686285f9faa444
 vendor/lib64/libskewknob.so|ad8430fa5e5a53441d36b4e2c09ab9e53f8585f7
+vendor/lib64/vendor.qti.hardware.perf@2.0.so|9633d7188e3179017fdbc60e09b654d39822c1ad
+vendor/lib64/vendor.qti.hardware.perf@2.1.so|10cd89e4fb77fcb82b2019303c3b97fb7e09e29c
+vendor/lib64/vendor.qti.hardware.perf@2.2.so|86c815d8713e6e411ae22e7fba451a292345d6b1
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|fc3c761b2654b83a4216eadf8dc8698540b2de1f
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|db794e0ba79fd310a8427cbcae03be05008c429f
 
