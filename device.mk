@@ -447,7 +447,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
     hardware/nxp \
-    packages/modules/Bluetooth/android/app
+    packages/modules/Bluetooth/android/app \
+    vendor/qcom/opensource/data-ipa-cfg-mgr
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
