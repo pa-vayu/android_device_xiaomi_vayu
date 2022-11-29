@@ -861,7 +861,12 @@ vendor/lib64/vendor.qti.hardware.perf@2.2.so|86c815d8713e6e411ae22e7fba451a29234
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|fc3c761b2654b83a4216eadf8dc8698540b2de1f
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|db794e0ba79fd310a8427cbcae03be05008c429f
 
-# PerfSys 
+# PerfSys
+system/etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
+system/etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea6388d3f107a32c
+system/framework/QPerformance.jar
+system/framework/QXPerformance.jar
+system/framework/UxPerformance.jar
 system_ext/app/PerformanceMode/PerformanceMode.apk
 system_ext/app/PowerSaveMode/PowerSaveMode.apk
 system_ext/app/workloadclassifier/workloadclassifier.apk
@@ -875,8 +880,8 @@ system_ext/lib/libbeluga.so
 system_ext/lib/libcomposerextn.qti.so
 system_ext/lib/libdolphin.so
 system_ext/lib/liblayerext.qti.so
-system_ext/lib/libpenguin_impl.so
 system_ext/lib/libpenguin.so
+system_ext/lib/libpenguin_impl.so
 system_ext/lib/libqape.qti.so
 system_ext/lib/libqspmsvc.so
 system_ext/lib/libqti-at.so
@@ -886,9 +891,9 @@ system_ext/lib/libqti_performance.so
 system_ext/lib/libqti_workloadclassifiermodel.so
 system_ext/lib/libskewknob_system.so
 system_ext/lib/libsmomoconfig.qti.so
+system_ext/lib/vendor.qti.hardware.iop@2.0.so
 system_ext/lib/vendor.qti.hardware.limits@1.0.so
 system_ext/lib/vendor.qti.hardware.limits@1.1.so
-system_ext/lib/vendor.qti.hardware.iop@2.0.so
 system_ext/lib/vendor.qti.hardware.perf@2.0.so
 system_ext/lib/vendor.qti.hardware.perf@2.1.so
 system_ext/lib/vendor.qti.hardware.perf@2.2.so
@@ -898,8 +903,8 @@ system_ext/lib64/libbeluga.so
 system_ext/lib64/libcomposerextn.qti.so
 system_ext/lib64/libdolphin.so
 system_ext/lib64/liblayerext.qti.so
-system_ext/lib64/libpenguin_impl.so
 system_ext/lib64/libpenguin.so
+system_ext/lib64/libpenguin_impl.so
 system_ext/lib64/libqape.qti.so
 system_ext/lib64/libqspmsvc.so
 system_ext/lib64/libqti-at.so
@@ -909,19 +914,14 @@ system_ext/lib64/libqti_performance.so
 system_ext/lib64/libqti_workloadclassifiermodel.so
 system_ext/lib64/libskewknob_system.so
 system_ext/lib64/libsmomoconfig.qti.so
+system_ext/lib64/vendor.qti.hardware.iop@2.0.so
 system_ext/lib64/vendor.qti.hardware.limits@1.0.so
 system_ext/lib64/vendor.qti.hardware.limits@1.1.so
-system_ext/lib64/vendor.qti.hardware.iop@2.0.so
 system_ext/lib64/vendor.qti.hardware.perf@2.0.so
 system_ext/lib64/vendor.qti.hardware.perf@2.1.so
 system_ext/lib64/vendor.qti.hardware.perf@2.2.so
 system_ext/lib64/vendor.qti.hardware.perf@2.3.so
 system_ext/lib64/vendor.qti.qspmhal@1.0.so
-system/etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
-system/etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea6388d3f107a32c
-system/framework/QXPerformance.jar
-system/framework/QPerformance.jar
-system/framework/UxPerformance.jar
 
 # Servicetracker
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
