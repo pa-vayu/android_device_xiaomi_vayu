@@ -17,3 +17,6 @@ bluetooth.profile.sap.server.enabled=true
 
 # DPM
 persist.vendor.dpm.feature=11
+
+# Vsync
+ro.sf.use_latest_hwc_vsync_period=0
