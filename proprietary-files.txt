@@ -90,8 +90,8 @@ vendor/lib64/libadsprpc.so
 
 # ANT - from AOSPA
 system_ext/bin/dun-server|de28d515ac88ff1848de038f403431b457d9ae51
-system_ext/lib/com.qualcomm.qti.ant@1.0.so|c0be7926f82c72090b25f86d942f202e677cbde3
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so|e4191dde72003e9f824167f3d62bcf9065578a12
+system_ext/lib/com.qualcomm.qti.ant@1.0.so|ef2c19734749bee9662a6f6e1cd924387c5bbb9c
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|2bdd0b1538f514f237c2ed3915d755cdbd5e2743
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -112,7 +112,8 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Bluetooth (system) - from AOSPA
-system_ext/app/BluetoothDsDaService/BluetoothDsDaService.apk|0c073ebd03280d28ce754e21e7c6df191cdb2965
+system_ext/app/BluetoothDsDaService/BluetoothDsDaService.apk|a7e52716ec9c73ac747fc95dd50f89462545e11a
+system_ext/etc/default-permissions/com.qualcomm.qtil.btdsda.xml|772b2a03833764c08f8023a5b143d3f9357f1f67
 
 # Camera
 vendor/lib64/camera/com.qti.sensor.hi259_vayu.so
