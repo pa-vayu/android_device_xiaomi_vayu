@@ -360,6 +360,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
+# Opt out of 16K alignment changes
+PRODUCT_MAX_PAGE_SIZE_SUPPORTED := 4096
+
 # Overlays
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayVayu \
