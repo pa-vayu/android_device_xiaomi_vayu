@@ -881,6 +881,10 @@ system_ext/lib64/vendor.qti.hardware.perf@2.2.so|2023cf8735118e3a311a7dc78984e8d
 system_ext/lib64/vendor.qti.hardware.perf@2.3.so|f30fd5a38938a148425609dfce43bb7b8499d957
 system_ext/lib64/vendor.qti.qspmhal@1.0.so|b60f6dc840a3a69e5743ad0eaeb386bc714d7841
 
+# Protobuf lite
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
 # Servicetracker
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
 vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
