@@ -105,12 +105,11 @@ PRODUCT_COPY_FILES += \
 
 
 # Camera
-$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
-
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
+    GoogleCameraGo \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor \

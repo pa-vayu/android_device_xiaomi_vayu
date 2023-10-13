@@ -1,5 +1,3 @@
-type hal_xiaomi_camera_hwservice, hwservice_manager_type;
-
 # For interfacing with PowerHAL
 hal_client_domain(hal_camera_default, hal_power)
 
@@ -10,9 +8,6 @@ r_dir_file(hal_camera_default, vendor_sysfs_kgsl)
 r_dir_file(hal_camera_default, camera_persist_file)
 r_dir_file(hal_camera_default, mnt_vendor_file)
 r_dir_file(hal_camera_default, vendor_persist_sensors_file)
-
-add_hwservice(hal_camera_default, hal_xiaomi_camera_hwservice)
-allow hal_camera_default system_server:binder call;
 
 allow hal_camera_default remosaic_daemon_service:service_manager find;
 
