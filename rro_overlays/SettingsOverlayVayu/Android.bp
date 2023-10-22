@@ -18,5 +18,5 @@ runtime_resource_overlay {
     name: "SettingsOverlayVayu",
     sdk_version: "current",
     resource_dirs: ["res"],
-    vendor: true,
+    product_specific: true,
 }
