@@ -64,6 +64,7 @@ on init && property:ro.boot.hwc=GLOBAL
 
 on property:ro.boot.product.hardware.sku=vayu
     enable vendor.nfc_hal_service
+    enable vendor.secureelement_hal_service
 
 on early-fs
     start vold
@@ -273,10 +274,17 @@ service remosaic_daemon /system/vendor/bin/remosaic_daemon
    user camera
    group camera
 
-service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+service vendor.nfc_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
     override
     class hal
     user nfc
     group nfc
     task_profiles ServiceCapacityLow
+    disabled
+
+service vendor.secureelement_hal_service /vendor/bin/hw/vendor.qti.secure_element@1.2-service
+    override
+    class hal
+    user system
+    group system
     disabled
