@@ -367,7 +367,6 @@ TARGET_GRALLOC_HANDLE_HAS_NO_CUSTOM_CONTENT_MD_RESERVED_SIZE := true
 # Overlays
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayVayu \
-   DialerOverlayVayu \
    FrameworksResOverlayVayu \
    NotchBarKillerVayu \
    SettingsOverlayVayu \
