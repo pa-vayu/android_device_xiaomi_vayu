@@ -367,12 +367,14 @@ TARGET_GRALLOC_HANDLE_HAS_NO_CUSTOM_CONTENT_MD_RESERVED_SIZE := true
 # Overlays
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayVayu \
+   CellBroadcastReceiverResCommon_Sys \
    FrameworksResOverlayVayu \
    NotchBarKillerVayu \
    SettingsOverlayVayu \
    SettingsProviderOverlayVayu \
    SystemUIOverlayVayu \
-   TelephonyOverlayVayu \
+   TelecommResCommon_Sys \
+   TelephonyResCommon_Sys \
    TetheringConfigOverlayVayu \
    WifiOverlayVayu
 
@@ -435,6 +437,7 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    device/qcom/common/system/overlay \
     hardware/nxp
 
 # NeuralNetworks
