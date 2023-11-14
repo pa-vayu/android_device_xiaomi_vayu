@@ -44,3 +44,5 @@ vendor.audio.feature.snd_mon.enable=true
 
 # QC framework value-adds
 ro.vendor.qti.va_odm.support=1
+
+ro.surface_flinger.has_wide_color_display=false
