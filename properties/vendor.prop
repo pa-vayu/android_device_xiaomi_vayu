@@ -99,10 +99,7 @@ vendor.gatekeeper.disable_spu=true
 # Graphics
 debug.sf.disable_backpressure=1
 persist.sys.sf.native_mode=0
-ro.hardware.egl=adreno
-ro.hardware.vulkan=adreno
 debug.renderengine.backend=skiaglthreaded
-ro.opengles.version=196610
 vendor.display.enable_force_split=1
 
 # Listen
