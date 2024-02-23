@@ -96,12 +96,16 @@ vendor/lib64/libbtnv.so
 vendor/lib/hw/audio.bluetooth_qti.default.so|6ce26888f5b67e3e211a7cfe11554d842162ae07
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7d9503fce83522d27bcdae531a4e0b320281f85f
 vendor/lib/btaudio_offload_if.so|a6a47f8397048e0286d6291b1996d6af16cbe241
+vendor/lib/libbt-hidlclient.so|2648e2161b8423073a6449a4ec72b3fb33123e7a
 vendor/lib/libbluetooth_audio_session_qti.so|0b306bac29ba1beff74c9e84785f0e77efb4402c
+vendor/lib/libbluetooth_audio_session_qti_2_1.so|b894e2e3768c2f3d6a21fae79a92663822e53450
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|156ec51ccb53f667605cf99422abf9357888b4b6
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|a9685a3bc4d4c5a0afbd915ec7babd2ba3e929ff
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|3e1a8c52d73ef5e67bea68610906627226aabe21
+vendor/lib64/libbt-hidlclient.so|ff301380cf3c0ff68d2b7fcda3ba428ebf0a859e
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e13886c19a56a9aa12
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a6b0d3978b3506d
+vendor/lib64/libbluetooth_audio_session_qti_2_1.so|f298669097abb8b47a24c46e4bf4eae872781299
 
 # Bluetooth (system) - from AOSPA
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
