@@ -467,7 +467,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor \
     libvndksupport \
-    libvndksupport.vendor
+    libvndksupport.vendor \
+    libcrypto-v33
 
 # WiFi
 PRODUCT_PACKAGES += \
