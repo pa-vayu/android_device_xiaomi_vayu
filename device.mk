@@ -164,7 +164,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.vayu \
+    android.hardware.biometrics.fingerprint-service.xiaomi \
     libkeymaster_messages.vendor
 
 PRODUCT_COPY_FILES += \
@@ -394,7 +394,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     device/qcom/common/system/overlay \
-    hardware/nxp
+    hardware/nxp \
+    hardware/xiaomi
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
