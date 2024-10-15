@@ -808,6 +808,28 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
+# QCC (system) - from LA.QSSI.15.0.r1
+system_ext/app/QCC/QCC.apk|817cf6377ab9969b48d90365e7494048f4b24235
+system_ext/bin/qccsyshal@1.2-service|93fc045060a4242a89a20c7c195914bf420bea84
+system_ext/bin/qccsyshal_aidl-service|a9f8c0a545a017507697ab3ebbadc03e01273b09
+system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc|a28aa55fe5837c7e271f230c5e370f0931a09f1d
+system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc|a6addd564ea9068105d6cb8b4b7fb169469d9965
+system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml|84fdcd93d53a1b399b9aa765095d47cdb0d872df
+system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml|7d074a1c47dfc406de5c41c2ee6289118653f13f
+system_ext/lib64/libqcc_file_agent_sys.so|dd495f934cff30d8ee82f21b0a123d69bf7b408b
+system_ext/lib64/libqcc_netstats.so|4e5ef6cbb2b9fba5e5b4647781e4b9cfe99a83e5
+system_ext/lib64/libqcc.so|55393c0564730880882a01d3417ea21afa808979
+system_ext/lib64/libqccdme.so|62d88aa781845f3a7478186cef442fa60048c608
+system_ext/lib64/libqccfileservice.so|4ea715ba00303096daa1a04625e3f20c1844813b
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so|88b21e904b1644bc520c348b4004f07a8976a0ae
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so|cd39a8e5edcc0851da6870e8011cf62a288973c9
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so|b72932b48c4f25e8f47043c31ec7107c2be82ab8
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so|fd3c5cb8bcba9a222af87abbb3d0f3a84bb3b196
+system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so|fec4590bf4a36caa1a6127246e42a63c12ef10b7
+system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so|932c1b4f9e6983bfbd8c845fe570fc2543e92548
+system_ext/lib64/vendor.qti.qccsyshal_aidl-halimpl.so|dce1c06b47737f402b4f099995047127d87555ea
+system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so|5a8c4446865bfeb79debb46b9b8454ad60c402d1
+
 # QCC - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b60b09fa92e8b400129c021c6b51c0c63dbf1edd
 vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
