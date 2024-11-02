@@ -33,6 +33,9 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+$(call soong_config_set,tinycompress,enable_extended_compress_format,true)
+$(call soong_config_set,tinycompress,loop_compress_read,true)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
