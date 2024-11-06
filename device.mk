@@ -379,6 +379,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
 # RIL
 PRODUCT_PACKAGES += \
     libjson.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libnetutils.vendor \
+    libcurl.vendor \
     libprotobuf-cpp-full
 
 PRODUCT_COPY_FILES += \
