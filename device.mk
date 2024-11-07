@@ -81,31 +81,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml
 
 # Bluetooth
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
-include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
-
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.bluetooth.audio@2.1-impl \
-    android.hardware.bluetooth@1.0.vendor \
-    android.hardware.bluetooth@1.1.vendor \
-    audio.bluetooth.default \
-    com.dsi.ant@1.0.vendor \
-    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     libbthost_if \
     libldacBT_dec \
     libldacBT_bco \
-    libtinycompress \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    vendor.qti.hardware.bluetooth_audio@2.1.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor \
-    vendor.qti.hardware.fm@1.0.vendor
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
-    frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml
-
+    libtinycompress
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -371,6 +351,7 @@ include $(LOCAL_PATH)/properties/default.mk
 TARGET_BOARD_PLATFORM := msmnile
 
 TARGET_COMMON_QTI_COMPONENTS := \
+    bt \
     charging \
     display \
     telephony \
