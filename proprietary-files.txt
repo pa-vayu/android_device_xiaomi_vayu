@@ -742,11 +742,6 @@ vendor/lib64/liboemnvbk_img_helper.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
-vendor/bin/hw/vendor.qti.media.c2@1.0-service
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|144d3730adda990a2fd5e1fdf65726dfe0c1f72c
-vendor/etc/system_properties.xml
-vendor/lib/libqcodec2.so
-vendor/lib64/libqcodec2.so
 
 # MM OSAL - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/lib/libmmosal.so|6f71fd1d54d6ca8df7d362a72517b082ed412bbe
@@ -1184,16 +1179,10 @@ vendor/lib/libvppclient.so|ad6b390270d9dab83f5501e30d7b05f0a0120882
 vendor/lib/libvpphcp.so|91bfde32023ba6c65d80a4ec56c33bbc972f1251
 vendor/lib/libvpphvx.so|32f90b9809ea221f0856f0a3563511cf54d7e9f8
 vendor/lib/libvpplibrary.so|5798fbc1d7ae747c04448e9db17d67b9759123c2
-vendor/lib/vendor.qti.hardware.vpp@1.1.so|3e0467d0c30bb6cccab12d2e67dacc5ea852b3df
-vendor/lib/vendor.qti.hardware.vpp@1.2.so|d1226cfbeee864b7cac52bcee37fdf4524892fd6
-vendor/lib/vendor.qti.hardware.vpp@1.3.so|6ff4979c9632ce9f244aeba7a0804332328f3fa9
 vendor/lib64/libvppclient.so|d21711ec814b89213c4a014fc266606dfcd671b3
 vendor/lib64/libvpphcp.so|6a2580bde806136a150b12cd67b287c8f6709f85
 vendor/lib64/libvpphvx.so|449c9d5448081aed1191c0478cd1e236eabf2a26
 vendor/lib64/libvpplibrary.so|cbb3a78b0b49a07944fb4f3b0daf83e8511ddc59
-vendor/lib64/vendor.qti.hardware.vpp@1.1.so|e336f4a3d0a50ee985639db6a8a70ec9817144ee
-vendor/lib64/vendor.qti.hardware.vpp@1.2.so|7ae61a9c75d4a17f0aad5969ce1a27cd5b0552ae
-vendor/lib64/vendor.qti.hardware.vpp@1.3.so|85a4e2ca843525db5c76486dbee4c5c7a672ee8d
 
 # Widevine DRM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
